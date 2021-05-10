@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import { Switch, Route, useLocation } from "react-router-dom";
+import Header from "./components/UI/Header/Header";
+import Footer from "./components/UI/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Market from "./pages/Market/Market";
+import SingleCoin from "./pages/SingleCoin/SingleCoin";
+import Contact from "./pages/Contact/Contact";
+import Error from "./pages/Error/Error";
+import Global from "./components/GlobalStyles/Global";
 
 function App() {
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Global />
+      <Header />
+      <Switch location={location} key={location.pathname}>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/market" component={Market} />
+        <Route exact path="/market/:coin" component={SingleCoin} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="*" component={Error} />
+      </Switch>
+      <Footer />
+    </Fragment>
   );
 }
 
