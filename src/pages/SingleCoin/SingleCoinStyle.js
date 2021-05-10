@@ -132,7 +132,7 @@ export const CoinSpan = styled.span`
 
 export const CoinDescription = styled.article`
   width: 100%;
-  max-width: ${sizes.xl};
+  max-width: ${sizes.l};
   margin: 0 auto;
 
   span {
@@ -147,5 +147,9 @@ export const DescriptionPara = styled.p`
   margin-top: 3.2rem;
   @media (max-width: ${sizes.m}) {
     font-size: 1.6rem;
+  }
+
+  @media (max-width: ${sizes.s}) {
+    max-width: ${sizes.s};
   }
 `;
