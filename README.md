@@ -1,3 +1,12 @@
+![Screenshot 2021-05-11 at 11 06 37](https://user-images.githubusercontent.com/54501214/117798593-31099380-b249-11eb-86de-9f8c91a28274.png)
+
+![Screenshot 2021-05-11 at 11 06 47](https://user-images.githubusercontent.com/54501214/117798697-4bdc0800-b249-11eb-9916-f7d37a72a7cc.png)
+
+![Screenshot 2021-05-11 at 11 07 03](https://user-images.githubusercontent.com/54501214/117798627-3961ce80-b249-11eb-9c02-c4163e8c6a05.png)
+
+CoinGecko API used to fetch data.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
