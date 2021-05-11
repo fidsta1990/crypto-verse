@@ -15,6 +15,8 @@ const pathVariants = {
   },
 };
 
+//svg effect on the path to slowly display logo on page load
+
 export const logoAnim = (
   <motion.svg
     variants={pathVariants}

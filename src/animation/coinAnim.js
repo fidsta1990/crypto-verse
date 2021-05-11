@@ -13,3 +13,6 @@ export const coinVariants = {
     },
   },
 };
+
+
+//animation to display list of coins fetched as page loads

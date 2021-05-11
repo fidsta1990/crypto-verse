@@ -13,3 +13,5 @@ export const homeVariants = {
     },
   },
 };
+
+//display home sections body content on page load

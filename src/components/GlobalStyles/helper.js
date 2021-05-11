@@ -1,20 +1,14 @@
 export const setColor = {
   primary: `#757ce8`,
   primeDark: "#002884",
-  secondary: "#63bce6",
   mainWhite: "#fff",
   mainGrey: "#ececec",
   darkGrey: "#595959",
   mainDark: "#232c64",
-  linearLight:
-    "linear-gradient(72deg, rgba(58,203,184,1) 0%, rgba(99,188,230,1) 100%);",
-  linearDark: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))",
-  linearPrime: "linear-gradient(rgb(58, 203, 184,.4), rgb(58, 203, 184,.4))",
 };
 
 export const setFont = {
   main: "font-family: 'Lato', sans-serif;",
-  titled: "font-family: 'Lato', sans-serif;",
 };
 
 export const setFlex = ({ x = "center", y = "center", d = "row" } = {}) => {

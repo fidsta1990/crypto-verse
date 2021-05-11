@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { setFlex } from "../../components/GlobalStyles/helper";
+import { setFlex, sizes } from "../../components/GlobalStyles/helper";
 
 export const Wrapper = styled.section`
   min-height: 100vh;
@@ -12,13 +12,13 @@ export const Wrapper = styled.section`
     width: 165px;
   }
 
-  @media (min-width: 360px) {
+  @media (min-width: ${sizes.xss}) {
     .back-btn {
       margin-top: 8rem;
     }
   }
 
-  @media (min-width: 800px) {
+  @media (min-width: ${sizes.m}) {
     .back-btn {
       width: 220px;
     }
@@ -28,5 +28,6 @@ export const Wrapper = styled.section`
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 4.8rem 0;
   }
 `;

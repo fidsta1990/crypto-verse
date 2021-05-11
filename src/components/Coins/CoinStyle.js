@@ -98,6 +98,5 @@ export const CoinName = styled.div`
 export const CoinImg = styled.img`
   width: 3rem;
   height: 3rem;
-  /* object-fit: cover; */
   display: block;
 `;

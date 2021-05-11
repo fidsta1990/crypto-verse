@@ -15,3 +15,6 @@ export const loaderVariants = {
     },
   },
 };
+
+
+//when data is being fetched, Load animation pops up as data is being fetched

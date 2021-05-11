@@ -15,6 +15,7 @@ const Form = () => {
   const [error, setError] = useState(false);
   const [msg, setMsg] = useState("");
 
+
   const validate = (fields, min = 4, max = 15) => {
     const { name, body } = fields;
 

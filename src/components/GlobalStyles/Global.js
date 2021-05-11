@@ -19,52 +19,38 @@ ${setFont.main};
 background: ${setColor.linear}; 
 }
 
+h1,h2,h3,h4,h5{
+  ${setFont.main};
+text-align: center;
+ text-transform: uppercase;
+ letter-spacing: ${letterSpacing(2)};
+ color:${setColor.primary};
+}
+
 h1{
   font-size: 4.8rem;
-    ${setFont.titled};
-  text-align: center;
-  text-transform: uppercase;
  line-height:1;
- letter-spacing: ${letterSpacing(2)};
-${setColor.gradient}
 }
+
 h2{
-  text-transform: uppercase;
-    ${setFont.titled};
-  text-align: center;
   font-size: 4rem;
  line-height:1;
-  letter-spacing: ${letterSpacing(2)};
 }
 
 h3{
   font-size: 3.2rem;
-    ${setFont.titled};
-  text-align: center;
-  text-transform: uppercase;
  line-height:1.2;
-  letter-spacing: ${letterSpacing(2)};
- ${setColor.primary};
 }
 
 h4{
   font-size: 2.4rem;
-    ${setFont.titled};
-  text-align: center;
-  text-transform: uppercase;
  line-height:1.5;
-  letter-spacing: ${letterSpacing(2)};
   margin-bottom: .8rem;
-  color:${setColor.primary};
 }
 
 h5{
   font-size: 1.6rem;
-    ${setFont.titled};
-  text-align: center;
-  text-transform: uppercase;
  line-height:1.5;
-  letter-spacing: ${letterSpacing(2)};
   margin-bottom: .8rem;
 }
 

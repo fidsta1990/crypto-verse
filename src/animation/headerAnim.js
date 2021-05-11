@@ -16,3 +16,4 @@ export const animateLink = {
 };
 
 
+//animation to display navbar on page load

@@ -35,6 +35,7 @@ const Coin = ({
     return val;
   };
 
+  //converst strings to numbers, pulled from context on line 22
   const priceFormat = convertNum(current_price);
   const highFormat = convertNum(ath);
 
